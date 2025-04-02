@@ -11,6 +11,7 @@ import { AuthProvider } from "../../../server/src/Authentication/Authentication.
 import AdminDashboard from "./pages/AdminDashboard.jsx";
 import Users from "./pages/Users.jsx";
 import Bookings from "./pages/Booking.jsx";
+import Chatbot from "./pages/Chatbot.jsx";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/admin" element={<AdminDashboard/>}/>
           <Route path="/admin/users" element={<Users/>}/>
           <Route path="/admin/booking" element={<Bookings/>}/>
+          <Route path="/chatbot" element={<Chatbot/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
